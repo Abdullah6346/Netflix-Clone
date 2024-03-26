@@ -93,7 +93,7 @@ body {
     .navbar {
         max-width: 162vw;
         margin: 0;
-        padding: 10px;
+        padding-top: 20px;
         display: flex;
         gap: 65vw;
         justify-content: space-evenly;
