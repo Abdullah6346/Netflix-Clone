@@ -91,7 +91,7 @@ body {
 
 @media screen and (max-width:500px) {
     .navbar {
-        max-width: 165vw;
+        max-width: 162vw;
         margin: 0;
         padding: 10px;
         display: flex;
