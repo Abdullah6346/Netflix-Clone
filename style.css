@@ -84,7 +84,7 @@ body {
     border: 1px solid transparent;
     color: white;
     border-radius: 5px;
-    font-size: 14px;
+    font-size:20;
     font-weight: 600;
 
 }
@@ -102,7 +102,7 @@ body {
     }
 
     .btn button {
-        padding: 5px 10px;
+        padding: 10px 16px;
     }
 }
 
