@@ -84,7 +84,7 @@ body {
     border: 1px solid transparent;
     color: white;
     border-radius: 5px;
-    font-size:20;
+    font-size: 20;
     font-weight: 600;
 
 }
@@ -100,7 +100,7 @@ body {
         align-items: center;
     }
 
-    
+
 
     .btn button {
         padding: 10px 16px;
@@ -385,10 +385,11 @@ body {
 }
 
 .inner2>img {
-position: relative;
+    position: relative;
     height: 60vh;
     display: block;
 }
+
 .inner-video {
     z-index: -1;
     overflow: hidden;
@@ -404,7 +405,7 @@ position: relative;
 .inner-video video {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 @media screen and (max-width: 500px) {
@@ -450,7 +451,7 @@ position: relative;
 }
 
 .box5 {
-    width: calc(100% + 50vw);
+
     height: 60pc;
     display: flex;
     flex-direction: column;
@@ -510,33 +511,40 @@ position: relative;
 
 @media screen and (max-width: 500px) {
 
+    .box5 {
+        width: calc(100% + 50vw);
+    }
+
     .box5 h1 {
         text-align: center;
         text-align: center;
         font-weight: 700;
         font-size: 42px;
     }
+
+    .box5 ul li button {
+        width: 104vw;
+        padding: 1.5rem;
     }
-
-
 
     .box5 ul li span {
 
         font-size: 16px;
     }
 
-    .box5 ul li button {
-        padding: 1.5rem;
-        width: 104vw;
-    }
-
-
-    .hidecontentbox .hidden {
-        font-weight: 400;
-        font-size: 18px;
-    }
-
 }
+
+
+
+
+
+
+.hidecontentbox .hidden {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
 
 .hidecontentbox {
     background-color: #414141;
@@ -761,7 +769,7 @@ input::placeholder {
         justify-content: center;
         align-items: center;
     }
-    
+
     .container-last-question ul li {
         flex: 0 0 100%;
         margin: 10px;
@@ -769,10 +777,11 @@ input::placeholder {
         font-size: 18px;
         font-weight: 600;
 
-    
+
     }
+
     .container-last-question {
         padding: 11px 1pc 10px 3pc;
-    
+
     }
 }
